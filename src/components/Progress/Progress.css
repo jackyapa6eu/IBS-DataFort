@@ -1,0 +1,31 @@
+.progress {
+  max-width: 300px;
+  position: relative;
+  background: rgb(95, 10, 10);
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.progress__done {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background: rgb(10, 95, 10);
+
+  transition: all ease 1s;
+}
+
+.progress__text {
+  position: relative;
+  margin: 0;
+  line-height: 20px;
+  font-size: 16px;
+  color: rgb(246 246 246);
+  z-index: 1;
+}

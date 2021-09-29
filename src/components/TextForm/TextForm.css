@@ -1,0 +1,43 @@
+.text-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text-form__error-msg {
+  opacity: 0;
+  color: rgb(95, 10, 10);
+  margin: 0;
+  transition: opacity ease 1s;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.text-form__text-input {
+  box-shadow: 0px 0px 15px #c5c5c5;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.text-form__submit-btn {
+  box-shadow: 0px 0px 15px #c5c5c5;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  line-height: 30px;
+  font-size: 16px;
+  transition: all ease 2s;
+  cursor: pointer;
+}
+
+.text-form__submit-btn:disabled {
+  opacity: .3;
+  box-shadow: none;
+}
+
+.text-form__error-msg_active {
+  opacity: 1;
+}

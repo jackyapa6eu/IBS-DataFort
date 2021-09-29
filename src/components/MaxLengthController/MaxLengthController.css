@@ -1,0 +1,58 @@
+.max-length-controller {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.max-length-controller__label {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.max-length-controller__scrollbar {
+  position: relative;
+  max-width: 100%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.max-length-controller__input {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 4;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.max-length-controller__scrollbar-track {
+  width: 100%;
+  height: 3px;
+  background: black;
+  position: absolute;
+  left: 0;
+  top: calc(50% - 1px);
+  z-index: 1;
+}
+
+.max-length-controller__scrollbar-thumb {
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  background: #c5c5c5;
+  border-radius: 4px;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+@media screen and (max-width: 400px) {
+  .max-length-controller__label {
+    font-size: 14px;
+  }
+}
