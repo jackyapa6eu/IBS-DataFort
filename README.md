@@ -9,13 +9,22 @@
 - React  
 - Firebase  
 
-## Сборка
-1. `git clone https://github.com/jackyapa6eu/ibs-datafort.git`  
-2. `cd ibs-datafort`  
-3. `npm install`  
+## Установка проекта
+```
+git clone https://github.com/jackyapa6eu/ibs-datafort.git  
+cd ibs-datafort  
+npm install  
+```
 
 ## Запуск
-- `npm start`  
+```
+npm start
+```  
+
+## Сборка
+```
+npm run build
+``` 
   
 ## Статус проекта: `завершен`
   
